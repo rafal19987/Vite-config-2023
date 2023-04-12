@@ -1,0 +1,20 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2021,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"rules": {
+		"react/jsx-uses-vars": "error",
+		"react/jsx-uses-react": "error",
+		"@typescript-eslint/explicit-module-boundary-types": "off"
+	},
+	"extends": ["react-app"]
+}
